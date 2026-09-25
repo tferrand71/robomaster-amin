@@ -1,0 +1,23 @@
+# Kronk CLI Configuration
+# https://github.com/kronkcms/kronk
+
+# AI tool configuration
+ai:
+  default: claude-code     # claude-code, cursor, antigravity, or windsurf
+
+# Quality guardrails
+guardrails:
+  enforce: true            # enforce guardrails on AI output
+  seo: true                # SEO best practices
+  accessibility: true       # a11y compliance
+  performance: true          # performance checks
+  security: true             # security validation
+
+# Project configuration
+project:
+  framework: auto          # auto-detect or specify (hugo, jekyll, astro, etc.)
+
+# MCP server configuration
+mcp:
+  enabled: true
+  port: 3456
